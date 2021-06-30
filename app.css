@@ -38,6 +38,7 @@ body {
 
 .profileText .imgBox {
   position: relative;
+  background: #004464;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -50,7 +51,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .profileText h2 {
